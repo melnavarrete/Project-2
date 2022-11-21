@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mako&family=Niramit:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="/your_path_to_version_6_compiled_files/css/fontawesome.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="/css/cart.css" rel="stylesheet">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cart.html">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Checkout.html">Checkout</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+        </div>
+      <div class="container-fluid flex-column hero min-vh-100 d-flex align-items-center justify-content-center">
+          <div class=" text-navy px-3 py-1">
+            <h1 class="text-center heading-1">Bean Me Up Coffee</h1>
+          </div>
+      <div class="hero-image">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold"></h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">All of your coffee needs sent to your house; straight from the roaster.</p>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <img src="coffeebeans.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+          </div>
+
+    <p>2 Items in cart</p>
+
+    <form method="get">
+        <div class="container-fluid">
+          <div class="row  row-cols-2 justify-content-around g-3">
+              <div class="column">
+                  <a title="Silar, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:020210816_Mug_Bovar_520_ml,_Galicja,_Made_in_China.jpg"><img width="256" alt="020210816 Mug Bovar 520 ml, Galicja, Made in China" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/020210816_Mug_Bovar_520_ml%2C_Galicja%2C_Made_in_China.jpg/256px-020210816_Mug_Bovar_520_ml%2C_Galicja%2C_Made_in_China.jpg"></a>
+                  <h3>Glass Galicja mug</h3><h4>$25.00 ea.</h4>
+
+                  <label for="mug"> </label>
+                  <select id="mug" name="mug" multiple>
+                  <option value="">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  </select>
+                  <input type="submit"  value="Check Out" ></p>
+              </div>
+              <div class="column">
+                <a title="Alorin, CC BY 4.0 &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png"><img width="256" alt="Coarsely grounded coffee beans in white bowl with intact roasted bean" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png/256px-Coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png"></a>   
+                <h3>Columbian Coffee</h3><h4>$12.99 Lb.</h4>
+                <label for="coffee"> </label>
+                <select id="amount" name="change amount" multiple>
+                    <option value="">0</option>
+                    <option value="1">1 Lb.</option>
+                    <option value="2">2 Lb.</option>
+                    <option value="3">5 Lb.</option>
+                    <option value="4">10 Lb.</option>
+              </div>
+        </div>
+        </form>
+
+
+
+
+
+
+
+    <footer>
+            <h3>Follow Us</h3>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-amazon"></i></a>
+            <nav class="navbar">
+                <div class="container-padding-3">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a href="Homepage.html" class="navlink">Homepage</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="Products.html" class="navlink">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="About.html" class="navlink">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="Cart.html" class="navlink">Cart</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="Checkout.html" class="navlink">Checkout</a>
+                      </li>
+                    </ul>         
+                  </div>
+                </div>
+              </nav>
+        </footer>
+         
+        
+        
+        
+          </body>
+        </html>
